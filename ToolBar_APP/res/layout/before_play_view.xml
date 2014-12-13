@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/layout_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/small_window_back" >
+
+        <RelativeLayout
+            android:id="@+id/layout_body"
+            android:layout_width="300dip"
+            android:layout_height="200dip"
+            android:layout_centerInParent="true"
+            android:background="@drawable/white_background" >
+
+            <RelativeLayout
+                android:id="@+id/blue_back"
+                android:layout_width="fill_parent"
+                android:layout_height="150dip"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/blue_background" >
+
+                <RelativeLayout
+                    android:id="@+id/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="2dip" >
+
+                    <ImageView
+                        android:id="@+id/logo"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dip"
+                        android:background="@drawable/logo" />
+
+                    <TextView
+                        android:id="@+id/title_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_toRightOf="@id/logo"
+                        android:text="@string/title"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/close_btn"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@color/transparent" />
+
+                    <ImageView
+                        android:id="@+id/close_image"
+                        android:layout_width="17dip"
+                        android:layout_height="17dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dip"
+                        android:src="@drawable/close" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:layout_marginLeft="4dip"
+                    android:layout_marginRight="3dip"
+                    android:background="@drawable/cut_line" />
+
+                <RelativeLayout
+                    android:id="@+id/show"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@id/line" >
+
+                    <include
+                        android:id="@+id/outside_circle"
+                        android:layout_width="70dip"
+                        android:layout_height="70dip"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="30dip"
+                        layout="@layout/water_view" />
+
+                    <RelativeLayout
+                        android:id="@+id/text_line_1"
+                        android:layout_width="140dip"
+                        android:layout_height="25dip"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="20dip"
+                        android:layout_toRightOf="@+id/outside_circle" >
+
+                        <TextView
+                            android:id="@+id/video_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:text="@string/video_size"
+                            android:textColor="@color/white"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/mb_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/mb"
+                            android:textColor="@color/white"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/video_size_amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginRight="5dip"
+                            android:layout_toLeftOf="@id/mb_1"
+                            android:text="60"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/text_line_2"
+                        android:layout_width="140dip"
+                        android:layout_height="25dip"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="43dip"
+                        android:layout_toRightOf="@+id/outside_circle" >
+
+                        <TextView
+                            android:id="@+id/video_remain"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:text="@string/video_remain"
+                            android:textColor="@color/white"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/mb_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/mb"
+                            android:textColor="@color/white"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/video_remain_amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginRight="5dip"
+                            android:layout_toLeftOf="@id/mb_2"
+                            android:text="200"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bottom_text"
+                android:layout_width="150dip"
+                android:layout_height="30dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="12dip"
+                android:layout_marginLeft="20dip" >
+
+                <TextView
+                    android:id="@+id/tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/tip"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tip_shop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/shop_text"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/shop_btn"
+                android:layout_width="60dip"
+                android:layout_height="25dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="15dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/green_btn_img"
+                android:text="@string/shop_btn_text"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

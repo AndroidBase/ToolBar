@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/start_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_toolbar" />
+
+    <Button
+        android:id="@+id/stop_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hind_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/window_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/before_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/before_btn" />
+
+        <Button
+            android:id="@+id/after_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/after_btn" />
+
+        <Button
+            android:id="@+id/warn_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/warn_btn" />
+    </LinearLayout>
+
+    <!-- <LinearLayout
+        android:id="@+id/http_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/send_http_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送请求" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="total" />
+
+        <TextView
+            android:id="@+id/gprs_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="gprs_total" />
+
+        <TextView
+            android:id="@+id/gprs_used"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="gprs_used" />
+
+        <TextView
+            android:id="@+id/package_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="package_total" />
+
+        <TextView
+            android:id="@+id/package_used"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="package_used" />
+    </LinearLayout> -->
+
+</LinearLayout>

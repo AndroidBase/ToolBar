@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Toolbar</string>
+    <string name="show_toolbar">开启ToolBar</string>
+    <string name="hind_toolbar">关闭ToolBar</string>
+    <string name="before_btn">视频播放前页面</string>
+    <string name="after_btn">视频播放后页面</string>
+    <string name="warn_btn">流量告警页面</string>
+    <string name="manager">流量管家</string>
+    <string name="mb">MB</string>
+    <string name="remain">剩余流量</string>
+    <string name="used">已用流量</string>
+    <string name="used_num">320</string>
+    <string name="store">流量商店</string>
+    <string name="message">消息</string>
+    <string name="business">业务介紹</string>
+    <string name="line">/</string>
+    <string name="remain_num">180</string>
+    <string name="gprs">GPRS流量</string>
+    <string name="gprs_used">已用</string>
+    <string name="gprs_used_num1">10</string>
+    <string name="gprs_used_num2">50</string>
+    <string name="flow">30MB流量包</string>
+    <string name="flow_used_num1">15</string>
+    <string name="flow_used_num2">30</string>
+    <string name="shop_tab1">为您推荐</string>
+    <string name="shop_tab2">流量包</string>
+    <string name="shop_tab3">加油站</string>
+    <string name="shop_content1">50元1000M流量包</string>
+    <string name="shop_content1_detail">含国内1000M流量，超出套餐包含部分1元/M</string>
+    <string name="shop_btn">立即体验</string>
+    <string name="message_content1">流量提醒</string>
+    <string name="message_content2">产品推荐</string>
+    <string name="message_content1_detail">截止至2014年2月，您的流量剩余10MB，建议购买叠加包，流量费用更实惠。</string>
+    <string name="message_content2_detail">2014年1月1日起，基础流量套餐包全面升级，快来看看你的流量升级了吗？</string>
+    <string name="about">关于</string>
+    <string name="submit">反馈</string>
+    <string name="contentDescription"></string>
+    <string name="about_content">  流量管家是一款专门为软件定制的,流量管理插件，能再您观看视频的同时,随时查看流量的使用情况，并且随时简便地订购流量套餐,随时查看流量的使用情况.</string>
+    <string name="about_place">中国移动版权所有</string>
+    <string name="buy_title">套餐订购</string>
+    <string name="buy_price">价格：50元</string>
+    <string name="buy_content">含国内（不含港澳台）500M的CMWAP和CMNET流量，超出套餐包含流量部分1元/M，不足1M按1M计算。2014年1月1日起加送省内流量500M！</string>
+    <string name="buy_btn">立即订购</string>
+    <string name="buy_success">订购成功</string>
+    <string name="buy_close">关闭</string>
+    <string name="hint">请填写您对我们的建议</string>
+    <string name="feedback">发送</string>
+    <string name="feedback_success">发送成功，感谢您的建议</string>
+
+    <!-- 视频相关页面 -->
+    <string name="title">流量管家</string>
+    <string name="title_lucky">—流量抽奖</string>
+    <string name="video_size">本段视频大小</string>
+    <string name="video_remain">当前剩余流量</string>
+    <string name="tip">担心流量不够？加个油！</string>
+    <string name="shop_text">更多优惠，尽在流量商店</string>
+    <string name="shop_btn_text">去加油</string>
+    <string name="lucky_btn_text">流量抽奖</string>
+    <string name="video_can_watch">这样的视频还可以看</string>
+    <string name="ge">个</string>
+    <string name="remain_minute">只够播放约</string>
+    <string name="minute">分钟</string>
+    <string name="warn_text">流量很快就要耗尽了，快去加油吧。</string>
+    <string name="congratulation">恭喜你抽中10M流量!</string>
+    <string name="sorry">很遗憾，你没有抽中！</string>
+    <string name="suggest">别灰心，点击下方链接给自己加油!</string>
+    <string name="effect">您获赠的流量将于下月1日生效</string>
+
+</resources>
